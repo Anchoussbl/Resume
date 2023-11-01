@@ -1,0 +1,41 @@
+{% extends "my_site/base.html" %}
+{% block content %}
+<style>
+	table, th, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    tr, td, th {
+    padding: 20px;
+    }
+</style>
+<h1 style="text-align: center;">Education</h1>
+<table style="text-align: center; width:100%">
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<th>2016 - 2022</th>
+					<td>Medical University</td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<th>December 2022 - Present</th>
+					<td>self study Python</td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<th>October 2023 - Present</th>
+					<td>self study Django, HTML</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+{% endblock content %}
