@@ -2,15 +2,37 @@
 {% block content %}
 <div class="media">
   {% load static %}
-  <img class="rounded-circle img-fluid" src="{% static 'my_site/my_photo.PNG' %}" alt="My photo" width="200px">
-  <div class="media-body">
-    <h1 class="mt-0">ANNA SOBOLEVA</h1>
-    <h5 class="mt-0">Junior Python-Developer</h5>
-    I am a Junior Python-Developer. I graduated from a medical university, but in the process
+  <div class="container-sm" style="word-wrap: break-word; width:40%">
+    <img class="rounded-circle img-fluid" src="{% static 'my_site/my_photo.PNG' %}" alt="My photo" width="200px">
+
+    <p class="lead">I am a Junior Python-Developer. I graduated from a medical university, but in the process
     I realized that I didn't want to connect my life with medicine. I decided to try my hand
     at programming and at the moment I have a solid basic knowledge of Python, I understand
     object-oriented programming, I have worked with Git, Jira, I have basic knowledge of SQL.
-    I do my work responsibly and attentively. I also ready to learn something new.
+      I do my work responsibly and attentively. I also ready to learn something new.</p>
+
+
+  </div>
+  <div class="container-xl">
+    <h1 class="mt-0">ABOUT ME</h1>
+
+    <dl class="row">
+      <dt class="col-sm-3">Full name</dt>
+      <dd class="col-sm-9">Anna Soboleva</dd>
+
+      <dt class="col-sm-3">Location</dt>
+      <dd class="col-sm-9">Belgrade, Serbia</dd>
+
+      <dt class="col-sm-3">Email</dt>
+      <dd class="col-sm-9">annasoboleva787@gmail.com</dd>
+
+      <dt class="col-sm-3">Phone</dt>
+      <dd class="col-sm-9">+381 62 937 7155</dd>
+
+      <dt class="col-sm-3">Telegram</dt>
+      <dd class="col-sm-9">@anchoussbl</dd>
+    </dl>
+
   </div>
 </div>
 {% endblock content %}
