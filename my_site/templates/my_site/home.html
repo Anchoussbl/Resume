@@ -2,37 +2,35 @@
 {% block content %}
 <div class="media">
   {% load static %}
-  <div class="container-sm" style="word-wrap: break-word; width:40%">
-    <img class="rounded-circle img-fluid" src="{% static 'my_site/my_photo.PNG' %}" alt="My photo" width="200px">
+  <div class="container-sm mr-5" style="word-wrap: break-word; width:40%">
+    <img class="rounded-circle img-fluid my-3 ml-4" src="{% static 'my_site/my_photo.PNG' %}" alt="My photo" width="220px">
 
-    <p class="lead">I am a Junior Python-Developer. I graduated from a medical university, but in the process
+    <p class="font-weight-normal">I graduated from a medical university, but in the process
     I realized that I didn't want to connect my life with medicine. I decided to try my hand
     at programming and at the moment I have a solid basic knowledge of Python, I understand
     object-oriented programming, I have worked with Git, Jira, I have basic knowledge of SQL.
       I do my work responsibly and attentively. I also ready to learn something new.</p>
-
-
   </div>
   <div class="container-xl">
-    <h1 class="mt-0">ABOUT ME</h1>
+    <h1 class="my-3">ABOUT ME</h1>
+    <p>Hello! I'm a Junior Python-Developer</p>
 
-    <dl class="row">
-      <dt class="col-sm-3">Full name</dt>
-      <dd class="col-sm-9">Anna Soboleva</dd>
+    <dl class="row mt-5 pt-5">
+      <dt class="col-sm-3 mb-4">Full name</dt>
+      <dd class="col-sm-9 mb-4">Anna Soboleva</dd>
 
-      <dt class="col-sm-3">Location</dt>
-      <dd class="col-sm-9">Belgrade, Serbia</dd>
+      <dt class="col-sm-3 mb-4">Location</dt>
+      <dd class="col-sm-9 mb-4">Belgrade, Serbia</dd>
 
-      <dt class="col-sm-3">Email</dt>
-      <dd class="col-sm-9">annasoboleva787@gmail.com</dd>
+      <dt class="col-sm-3 mb-4">Email</dt>
+      <dd class="col-sm-9 mb-4">annasoboleva787@gmail.com</dd>
 
-      <dt class="col-sm-3">Phone</dt>
-      <dd class="col-sm-9">+381 62 937 7155</dd>
+      <dt class="col-sm-3 mb-4">Phone</dt>
+      <dd class="col-sm-9 mb-4">+381 62 937 7155</dd>
 
-      <dt class="col-sm-3">Telegram</dt>
-      <dd class="col-sm-9">@anchoussbl</dd>
+      <dt class="col-sm-3 mb-4">Telegram</dt>
+      <dd class="col-sm-9 mb-4">@anchoussbl</dd>
     </dl>
-
   </div>
 </div>
 {% endblock content %}
