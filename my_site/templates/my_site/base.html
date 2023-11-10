@@ -16,15 +16,15 @@ body {
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="/skills">Skills</a>
-      <a class="nav-item nav-link" href="/education">Education</a>
-      <a class="nav-item nav-link" href="/experience">Experience</a>
+        <a class="nav-item nav-link {% if active == 'Home' %}active{% endif %}" href="/">Home</a>
+        <a class="nav-item nav-link {% if active == 'Skills' %}active{% endif %}" href="/skills">Skills</a>
+        <a class="nav-item nav-link {% if active == 'Education' %}active{% endif %}" href="/education">Education</a>
+        <a class="nav-item nav-link {% if active == 'Experience' %}active{% endif %}" href="/experience">Experience</a>
     </div>
   </div>
 </nav>
